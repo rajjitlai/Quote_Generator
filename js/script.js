@@ -27,8 +27,16 @@ function generateRandomQuote() {
 
 generateButton.addEventListener('click', () => {
     const randomQuote = generateRandomQuote();
-    quoteElement.textContent = randomQuote;
-    quoteCode.value = randomQuote;
+    
+    // Add fade-in effect
+    quoteElement.style.opacity = 0;
+    setTimeout(() => {
+        quoteElement.textContent = randomQuote;
+        quoteCode.value = randomQuote;
+        quoteElement.style.transition = 'opacity 0.5s ease';
+        quoteElement.style.opacity = 1;
+    }, 200);
+
     popup.style.display = 'block';
 });
 
