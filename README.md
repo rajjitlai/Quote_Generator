@@ -51,7 +51,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## ✍️ Author
 
 **Rajjit Laishram**
-- Website: [rajjit.me](https://rajjit.me) (Optional)
+- Website: [rajjitlaishram](https://rajjitlaishram.netlify.app/)
 - GitHub: [@rajjitlai](https://github.com/rajjitlai)
 
 ---
